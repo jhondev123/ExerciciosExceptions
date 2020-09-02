@@ -48,7 +48,7 @@ public void updateReservation(Date checkin,Date checkout){
     @Override
     public String toString() {
         return "Reservation : " + "roomnumber : " + roomnumber + ", checkin :" +
-                sdf.format(checkin) + ", checkout : " + sdf.format(checkout) + duration() + "Nights"; 
+                sdf.format(checkin) + ", checkout : " + sdf.format(checkout) +":"+ duration() + " Nights"; 
     }
     
 }
